@@ -1,0 +1,18 @@
+*{
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px 4px 4px;
+    list-style-type: none;
+}
+
+.flexbox-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexbox-item1{
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+.flexbox-item2{
+    align-items: center;
+}

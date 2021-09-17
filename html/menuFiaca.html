@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Bienvenidos a Fiaca!</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/iconoFiaca.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <article class="flexbox-content">
+            <img class="border border-dark" src="../assets/logoFiaca.jpg" width="200" height="200" alt="FIACA">
+            <h1>¡Bienvenidos a Fiaca!</h1>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../html/indexFiaca.html">FIACA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item item-li">
+                            <a class="nav-link active" aria-current="page" href="../html/indexFiaca.html">Inicio</a>
+                        </li>
+                        <li class="nav-item item-li">
+                            <a class="nav-link" href="../html/contactFiaca.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown item-li">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Redes Sociales</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li>  
+                            <a class="dropdown-item " href="http://Twitter.com">Twitter</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="http://Facebook.com">Facebook</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://www.instagram.com/fiacashowroom">Instagram</a>
+                        </li>
+                        </ul>
+                            <li class="nav-item item-li">
+                            <a class="nav-link active" href="../html/menuFiaca.html" tabindex="-1" aria-disabled="true">Menú</a>
+                        </li>
+                        </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        </article>
+    </header>
+        <section class="tabla">
+            <article>
+                <table>
+                    <fieldset  class="flexbox-content" Border="3" Cellpadding=10 Cellspacing=3 >
+                    <h1> 
+                        <b>¡Conoce nuestros productos!</b>
+                    </h1>
+                    </fieldset> 
+                    <table  class="tabla table-primary" Border="3" Cellpadding=10 Cellspacing=3 >
+                    <tr class="table-primary">
+                        <th>Prenda</th>
+                        <th>Tipo</th>
+                        <th>Precio</th>
+                        <th>Precio por mayor</th>
+                        <th>Descripción</th>
+                        <th>Medidas</th>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>Hoodie</td>
+                        <td>Algodón</td>
+                        <td>$1800</td>
+                        <td>$1400</td>
+                        <td> Una sudadera de cuello subido con capucha ajustable con cordón. Manga larga acabada en puño de elástico.</td>
+                        <td>Busto 98cm-Cintura 74cm-Cadera 102cm-Altura-174cm</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>Remera</td>
+                        <td>Algodón</td>
+                        <td>$800</td>
+                        <td>$600</td>
+                        <td>Un cómodo Jogger tiro alto con cintura elástica ajustable con cordones. Bolsillos laterales. Bajo acabado en puño de elástico.</td>
+                        <td>Busto 94cm-Cintura 70cm-Cadera 98cm-Altura-170cm</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>Pantalon</td>
+                        <td>Algodón</td>
+                        <td>$900</td>
+                        <td>$700</td>
+                        <td>Una camiseta manga corta de cuello redondo y amplio.</td>
+                        <td>Cintura 78cm-Cadera 106cm-Altura-178cm</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <footer class="newsletter">
+            <section class="flexbox-content">
+                    <fieldset class="flexbox-item1">
+                        <div>
+                            <h2>¿Desea recibir nuestras promociones mensuales?</h2>
+                        </div>
+                            <textarea name="texto" id="" cols="30" rows="1" placeholder="Ingrese su email"></textarea>
+                        <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value= "Borrar" >
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script> 
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+
+/*extends*/
+
+%boton{
+    background-color: grey;
+    border-radius: 2px;
+    font-family: 'Roboto', 'Sans Serif' ;
+}
+
+%font-size-navbar {
+    font-size: 24px;
+    transition: all .5s ease-in;
+    &:hover {
+        border-bottom: 2px solid black;
+    }
+}

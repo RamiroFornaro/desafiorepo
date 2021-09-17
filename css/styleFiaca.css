@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px 4px 4px;
+    list-style-type: none;
+}
+
+.listas{
+    background-color: #ecdfdb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px ;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px 4px 4px;
+
+}
+.formulario{
+    background-color: #ecdfdb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px ;
+    text-align: center;
+}
+.tabla{
+    background-color: #ecdfdb;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px ;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px 4px 4px;
+}
+.newsletter{
+    background-color: #ecdfdb;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px ;
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px 4px 4px;
+}
+.tituloTabla{
+    background-color:#ecdfdb;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px 4px 4px;
+}
+
+.flexbox-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexbox-item1{
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+.flexbox-item2{
+    align-items: center;
+}

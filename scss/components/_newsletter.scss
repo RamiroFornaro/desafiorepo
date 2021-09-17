@@ -1,0 +1,10 @@
+.newsletter{
+    background-color: #ecdfdb;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px ;
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px 4px 4px;
+    @extend %boton;
+}
