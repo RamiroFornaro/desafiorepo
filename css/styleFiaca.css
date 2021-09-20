@@ -67,3 +67,7 @@
 .flexbox-item2{
     align-items: center;
 }
+
+.hoodie:hover{
+    display: inline;
+}

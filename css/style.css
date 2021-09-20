@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /*extends*/
 .newsletter {
@@ -15,7 +16,7 @@
 }
 
 .header {
-  background-color: #ecdfdb;
+  background-color: #BFA2DB;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   letter-spacing: 1px;
@@ -23,11 +24,8 @@
   padding: 12px 12px 12px 12px;
   margin: 4px 4px 4px 4px;
 }
-
-* {
-  padding: 12px 12px 12px 12px;
-  margin: 4px 4px 4px 4px;
-  list-style-type: none;
+.header .nav-color {
+  background-color: #F0D9FF;
 }
 
 .flexbox-content {
@@ -55,7 +53,7 @@
 }
 
 .newsletter {
-  background-color: #ecdfdb;
+  background-color: #BFA2DB;
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 15px;
@@ -84,6 +82,16 @@
   text-align: center;
   padding: 12px 12px 12px 12px;
   margin: 4px 4px 4px 4px;
+}
+
+.tamaño-1 {
+  width: 250px;
+  border-color: black;
+  background-color: #BFA2DB;
+  margin: 20px 20px;
+}
+.tamaño-1 img {
+  padding-top: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

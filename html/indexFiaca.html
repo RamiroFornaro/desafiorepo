@@ -31,7 +31,7 @@
         <article class="flexbox-content">
             <img class="border border-dark" src="../assets/logoFiaca.jpg" width="200" height="200" alt="FIACA">
             <h1>¡Bienvenidos a Fiaca!</h1>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg nav-color navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="../html/indexFiaca.html">FIACA</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,33 +71,47 @@
         </article>
     </header>
     <section class="header">
-        <fieldset class="flexbox-content">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <fieldset class="container">
+            <div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/hoodieFiaca.jpg" class="img-fluid border border-dark rounded-pill d-block w-100" alt="Imagen de hoodieFiaca">
+                <div class="carousel-inner col-sm">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="../assets/hoodieFiaca.jpg" class="img-fluid" alt="HoodieFiaca">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Hoodie Fiaca</h5>
+                        <p>¡Cómodidad en cualquier lugar!</p>
                     </div>
-                    <div class="carousel-item">
-                        <img src="../assets/joggerFiaca.jpg" class=" img-fluid border border-dark rounded-pill d-block w-100" alt="Imagen de joggerFiaca">
                     </div>
-                    <div class="carousel-item">
-                        <img src="../assets/remeraFiaca.jpg" class="img-fluid border border-dark rounded-pill d-block w-100" alt="Imagen de remeraFiaca">
+                    <div class="carousel-item col-sm" data-bs-interval="3000">
+                        <img src="../assets/joggerFiaca.jpg" class="img-fluid" alt="joggerFiaca">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Jogger Fiaca</h5>
+                        <p>¡Cómodidad en cualquier lugar!</p>
                     </div>
-                    <div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="../assets/remeraFiaca.jpg" class="img-fluid" alt="remeraFiaca">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Remera Fiaca</h5>
+                        <p>¡Cómodidad en cualquier lugar!</p>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
+                    <span class="visually-hidden">Next</span>
                 </button>
                 </div>
+            </div>
         </fieldset>
     </section>
         <section class="header">
